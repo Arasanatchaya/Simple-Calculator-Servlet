@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<center>
+
+<div class="container">
+<h2>Calculator</h2>
+<form action="Calculator" method="post">
+
+<div>
+<label for="number1">Number 1: </label>
+<input type="number" required="required" name="number1" id="number1" placeholder="Enter a number">
+</div>
+<div>
+<label for="number2">Number 2: </label>
+<input type="number" required="required" name="number2" id="number2" placeholder="Enter a number">
+</div>
+<select name="operation">
+<option value="add">Addition (+)</option>
+<option value="sub">Subtraction (-)</option>
+<option value="mul">Multiplication (*)</option>
+<option value="div">Division (/)</option>
+</select>
+
+<button type="submit">Calculate</button>
+
+</form>
+</div>
+
+
+</center>
+
+</body>
+</html>
